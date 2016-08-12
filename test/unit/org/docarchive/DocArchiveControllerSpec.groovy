@@ -1,4 +1,4 @@
-package docarchive
+package org.docarchive
 
 import grails.test.mixin.TestFor
 import spock.lang.Specification
@@ -6,8 +6,8 @@ import spock.lang.Specification
 /**
  * See the API for {@link grails.test.mixin.web.ControllerUnitTestMixin} for usage instructions
  */
-@TestFor(ArchiveController)
-class ArchiveControllerSpec extends Specification {
+@TestFor(DocArchiveController)
+class DocArchiveControllerSpec extends Specification {
 
     def setup() {
     }
