@@ -1,5 +1,7 @@
 package org.docarchive
 
+import grails.plugin.springsecurity.annotation.Secured
+
 class DocArchiveController {
 
     def index() { 
